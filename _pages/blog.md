@@ -19,7 +19,7 @@ pagination:
 
 <!-- If want to revert blog page then change the layout to default and remove `redirect` and uncomment below code -->
 
-<!-- 
+<!--
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}

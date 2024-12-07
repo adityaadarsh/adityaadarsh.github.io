@@ -65,4 +65,3 @@ I’m passionate about building end-to-end ML pipelines and microservices using 
 <a href="https://adityaadarsh.hashnode.dev/" style="display: block; margin-bottom: 1px; line-height: 0;">
     <img src="https://img.icons8.com/?size=17&id=41414&format=png&color=000000" alt="Blogs" /> blogs
 </a>
-
