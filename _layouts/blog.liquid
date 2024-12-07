@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <!-- Head -->
+  <head>
+    {% if page.redirect %}
+      {% if page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+    {% endif %}
+      <meta http-equiv="refresh" content="0; url={{ redirect }}">
+    {% endif %}
+  </head>
+</html>
