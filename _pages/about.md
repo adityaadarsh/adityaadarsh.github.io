@@ -2,100 +2,67 @@
 layout: about
 title: About
 permalink: /
-subtitle: Climbing to greater heights everyday
+subtitle: <a href='https://www.linkedin.com/in/aditya-adarsh-657320188/'>Full Stack Data Scientist/AI Engineer</a>
+
 
 profile:
   align: right
   image: profile_picture.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Student A Levels CAIE</p><br>
-    <p>Lahore Grammar School Johar Town for Boys</p>
 
-pretty_table: true
+pretty_table: false
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-<style>
-th, td {
-  border:1px solid black;
-}
-</style>
 
-<div align="center" class="light-items">
-{% include figure.liquid path="https://img.shields.io/github/stars/KingHowler?style=for-the-badge&logo=github&logoColor=%23ffffff&label=My%20Stars&labelColor=%23000000&color=%23ffffff&link=github.com%2FKingHowler" title="My Stars" class="img-fluid rounded z-depth-1" border="2px solid #000000" width="300px"%}
-</div>
-<div align="center" class="dark-items">
-{% include figure.liquid path="https://img.shields.io/github/stars/KingHowler?style=for-the-badge&logo=github&logoColor=%23000000&label=My%20Stars&labelColor=%23ffffff&color=%23000000&link=github.com%2FKingHowler" title="My Stars" class="img-fluid rounded z-depth-1" border="2px solid #FFFFFF" width="300px"%}
-</div>
 
-My name is Muhammad Umar Shahbaz, born in the bustling city of Lahore, Pakistan. In **6th grade** I somehow stumbled upon a video of an **"Intruder Detector"** project using an **HC-SR04** and an **Arduino Uno**. That was how I jumped into the field of **Robotics**. These days **Robotics** is the talk of the world with almost every student trying their very best to become a part of the industry, but back in my day, meaning when I started **Robotics**, people barely knew about it.
+Hey, I’m Aditya Adarsh! I’m a Data Scientist with 6+ years of experience in building and deploying machine learning models. I’ve worked on a variety of projects, including fine-tuning large language models (LLMs) and setting up scalable MLOps pipelines to address real-world challenges.
 
-**Robotics** is not the only field that gives me "worth". I am also an industrious student when it comes to **Software Sciences** and **Physics**. I have been making softwares since **7th grade**, for that part I don't have a grand story. It was a part of the school syllabus, we were tasked with making a discount calculator for a shop using Visual Studio 2010. You can find a list of my many projects [here](projects/).
+I’m passionate about building end-to-end ML pipelines and microservices using tools like Python, Go, PyTorch, Databricks, and PySpark, gRPC. Whether it's working with messy data or optimizing complex systems, I love tackling challenges.
 
-Enough talk about skills, let's talk about my hobbies. I am a frequent reader, to be honest I don't read many **Classical** or **Romance** or any other genres a lot. If you ever find me reading a book, there is an extremely high chance that I am reading either **Fantasy** or **Crime Fiction**. My favourite novel series include **Harry Potter** by JK Rowling, **Agent 21** by Chris Ryan and **Nevernight Chronicles** by Jay Kristoff. Other than reading I am also known for playing sports. I have played football in my High School and was one of the most reliable defenders. Nowadays I am mostly playing Table Tennis with the rest of my college friends.
+**Recent Work:**
+- **[Central AI for Sales](https://www.outreach.io/platform/sales-ai)**: Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for a big enterprises.
+- **[Deal Health]((https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview))**: Developed a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations.
 
-I am not great when it comes to academics, my weak memory as well as slow math may make me seem like a liability, but I assure you I have got the skills needed. Although I may not work well under an unreasonably tight deadline, I can still produce amazing results.
+**What I’m Working On:**
+- Building ML pipelines and microservices with Python, Go, TensorFlow, PyTorch, Databricks, MLFlow, and PySpark.
+- Diving into CI/CD for ML, distributed systems, and scalable APIs.
+- Creating [YouTube](https://www.youtube.com/@butterfly_learner) content, writing technical [blogs](https://adityaadarsh.hashnode.dev/), and solving interesting challenges along the way.
 
-My own quote: <br> **Experience is everything. Once you have seen it all, you become the apex.**
-
-<br><br><br><br>
+**New Tech I'm Learning**
+- Web Development, Web3, Blockchain
+- Advance DevOps
 
 ---
+<!-- **Connect with me** -->
 
-<h1>I am currently doing the following</h1>
+##### **Connect with me ![Connect with me](https://img.icons8.com/?size=26&id=1H52efUsDX7A&format=png&color=000000)**
 
-<br>
+<a href="mailto:adityaadarsh99@gmail.com" style="display: block; margin-bottom: 1px; align: Right; line-height: 0;">
+    <img src="https://img.icons8.com/ios-filled/17/000000/mail.png" alt="Email" /> adityaadarsh99@gmail.com
+</a>
 
-- Simulations
-- Robotics
-- Back-end Programming
-- Database Management
+<a href="https://github.com/adityaadarsh" style="display: block; margin-bottom: 1px; line-height: 0;">
+    <img src="https://img.icons8.com/ios-filled/17/000000/github.png" alt="GitHub" /> adityaadarsh
+</a>
 
-**Note: I am relatively new to database management but in terms of Robotics, Back-end Programming and 2D Simulations I have a good amount of experience. As of the moment I am learning how to do 3D Simulations**
+<a href="https://x.com/b_fly_learner" style="display: block; margin-bottom: 1px; line-height: 0;">
+    <img src="https://img.icons8.com/ios-filled/16/000000/x.png" alt="X" /> b_fly_learner
+</a>
 
----
+<a href="https://www.linkedin.com/in/aditya-adarsh-657320188/" style="display: block; margin-bottom: 1px; line-height: 0;">
+    <img src="https://img.icons8.com/ios-filled/17/000000/linkedin.png" alt="LinkedIn" /> adityaadarsh
+</a>
 
-<h1 align="left">Works in Progress</h1>
+<a href="https://www.youtube.com/@butterfly_learner" style="display: block; margin-bottom: 1px; line-height: 0;">
+    <img src="https://img.icons8.com/?size=17&id=37326&format=png&color=000000" alt="Youtube" /> butterfly_learner
+</a>
 
-<br>
+<a href="https://adityaadarsh.hashnode.dev/" style="display: block; margin-bottom: 1px; line-height: 0;">
+    <img src="https://img.icons8.com/?size=17&id=41414&format=png&color=000000" alt="Blogs" /> blogs
+</a>
 
-| Project Title                 | Description                                                                                                |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Oscilloscope Online**       | Browser based interface for a **Serial Graph Plotter**. Used as an alternative to expensive Oscilloscopes. |
-| **Attendance system**         | NodeMCU based system using RFID & SQL servers.                                                             |
-| **Environmental Data Logger** | NodeMCU based data logger to record the environmental conditions of Lahore, Pakistan.                      |
-| **HeatGraphs**                | Software to plot graphs of your computers Temperatures. This will help in benchmarking your computer.      |
-| **Robotic Arm Simulation**    | Simulation for a standard 4 axis Robotic Arm which you can control using a serial device.                  |
-
----
-
-<h3 align="center">🛠 Language and tools</h3>
-
-<br>
-
-<div align="center" style="background-color:#ffffff; padding:5px">
-  {% include icon.liquid file="github/github-original.svg" site="devicons" title="GitHub" %}
-  {% include icon.liquid file="vscode/vscode-original.svg" site="devicons" title="Visual Studio Code" %}
-  {% include icon.liquid file="https://www.gitkraken.com/wp-content/uploads/2021/12/gitkraken-icon-stencil-color.svg" title="GitKraken" %}
-  {% include icon.liquid file="visualstudio/visualstudio-original.svg" site="devicons" title="Visual Studio" %}
-  {% include icon.liquid file="arduino/arduino-original.svg" site="devicons" title="Arduino" %}
-  {% include icon.liquid file="processing" site="skillicons" title="Processing IDE" %}
-  {% include icon.liquid file="filezilla/filezilla-original.svg" site="devicons" title="FileZilla" %}
-  {% include icon.liquid file="unity/unity-original.svg" site="devicons" title="Unity" %}
-</div>
-<div align="center" style="background-color:#ffffff; padding:5px">
-  {% include icon.liquid file="cplusplus/cplusplus-original.svg" site="devicons" title="C++" %}
-  {% include icon.liquid file="csharp/csharp-original.svg" site="devicons" title="C#" %}
-  {% include icon.liquid file="python/python-original.svg" site="devicons" title="Python" %}
-  {% include icon.liquid file="javascript/javascript-original.svg" site="devicons" title="JavaScript" %}
-  {% include icon.liquid file="php/php-original.svg" site="devicons" title="PHP" %}
-  {% include icon.liquid file="html5/html5-original.svg" site="devicons" title="HTML" %}
-  {% include icon.liquid file="css3/css3-original.svg" site="devicons" title="CSS" %}
-</div>
-<br><br>
-
----

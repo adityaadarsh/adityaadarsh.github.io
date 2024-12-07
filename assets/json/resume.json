@@ -1,163 +1,133 @@
 {
   "basics": {
-    "name": "M.Umar Shahbaz",
-    "label": "Aspiring Programmer",
-    "url": "https://kinghowler.github.io/",
-    "summary": "Learning to create programs which are efficient and follow the standard programming ethics such as minimizing technical debt and providing proper documentation.I am a frequent user of GitHub and am currently in charge of creating a website with my team",
+    "name": "Aditya Adarsh",
+    "label": "Data Scientist and AI Specialist",
+    "url": "https://www.linkedin.com/in/aditya-adarsh-657320188/",
+    "summary": "Data Scientist with over 6 years of experience specializing in end-to-end ML pipelines, MLOps, large-scale data solutions, and LLM-based AI applications. \n I Also like to create content on youtube and writing blogs.",
     "profiles": [
       {
-        "network": "Reddit",
-        "username": "King-Howler",
-        "url": "https://www.reddit.com/user/King-Howler/"
+        "network": "LinkedIn",
+        "username": "Aditya Adarsh",
+        "url": "https://www.linkedin.com/in/aditya-adarsh-657320188/"
       },
       {
         "network": "GitHub",
-        "username": "KingHowler",
-        "url": "https://www.github.com/King-Howler/"
+        "username": "adityaadarsh",
+        "url": "https://github.com/adityaadarsh"
+      },
+      {
+        "network": "YouTube",
+        "username": "Aditya Adarsh",
+        "url": "https://www.youtube.com/channel/UCl-sjClQb1FOv63Wo5HMXLA"
       }
     ]
   },
-  "education": [
+  "work": [
     {
-      "institution": "Crescent Model Higher Secondary School",
-      "location": "Lahore, Pakistan",
-      "area": "Computer Science Group",
-      "studyType": "O Level CAIE",
-      "startDate": "2020-04-04",
-      "endDate": "2023-06-10",
-      "score": "5A*s 3A",
-      "courses": ["Computer Science", "Physics", "Mathematics", "Chemistry", "English", "Urdu", "Islamiat", "Pakistan Studies"]
-    },
-    {
-      "institution": "Lahore Grammar School Johar Town Boys Campus",
-      "location": "Lahore, Pakistan",
-      "area": "Computer Science with Chemistry",
-      "studyType": "A Level CAIE",
-      "startDate": "2023-08-15",
-      "endDate": "2025-06-10",
-      "score": "Official Pending, Internal: 2A*s 1A 1B",
-      "courses": ["Computer Science", "Physics", "Mathematics", "Chemistry"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award Of Excellence & Certificate of Achievement",
-      "date": "2024-03-01",
-      "awarder": "Crescent Model Higher Secondary School",
-      "summary": "Awarded due to outstanding results in O levels"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate of Excellence",
-      "date": "2024-03-01",
-      "issuer": "Crescent Model Higher Secondary School"
-    },
-    {
-      "name": "General Certificate of Education, June 2023 Examination series",
-      "date": "2023-08-16",
-      "issuer": "Cambridge Assessment International Education",
-      "url": "https://www.cambridgeinternational.org/"
-    },
-    {
-      "name": "General Certificate of Education, June 2022 Examination series",
-      "date": "2022-08-18",
-      "issuer": "Cambridge Assessment International Education",
-      "url": "https://www.cambridgeinternational.org/"
-    },
-    {
-      "name": "Equivalence Certificate",
-      "date": "2024-02-07",
-      "issuer": "Inter Board Committee of Chairmen, Government of Pakistan, Islamabad",
-      "url": "https://ibcc.edu.pk/"
-    },
-    {
-      "name": "Certificate of Distinction",
-      "date": "2023-10-28",
-      "issuer": "Aitchison College Science and Engineering Concept"
-    },
-    {
-      "name": "Certificate of Participation, for participating in Artificial Intelligence and Computer Science Workshop",
-      "date": "2024-07-26",
-      "issuer": "Crescent Model Higher Secondary School"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Expert",
-      "keywords": ["Kinematics", "Dynamics", "Electricity"]
-    },
-    {
-      "name": "Programming",
-      "level": "Expert",
-      "keywords": ["C++", "Python", "Markdown", "Arduino", "Processing"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Urdu",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "keywords": ["Electronics", "Kinematics", "Dynamics", "Mechanisms"]
-    },
-    {
-      "name": "Programming",
-      "keywords": ["Software development", "Embedded system development", "Web development"]
-    },
-    {
-      "name": "Robotics",
-      "keywords": ["Automation", "IoT", "Custom builds"]
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
     }
   ],
   "projects": [
     {
-      "name": "Arduino Language Support",
-      "summary": "Extension for Microsoft VS Code",
-      "highlights": ["Separate grammar file for .ino", "2 Themes based on Arduino IDE"],
-      "startDate": "2024-08-03",
-      "url": "https://www.github.com/KingHowler/Arduino-Language-Support"
+      "name": "Local Chatbot for Private Data",
+      "summary": "Developed a question-answering chatbot optimized for CPU.",
+      "highlights": ["Local LLM-based solution", "Secure and scalable"],
+      "url": "https://github.com/adityaadarsh/local-chatbot-cpu"
     },
     {
-      "name": "Graph Plotter",
-      "summary": "Library to plot graphs easily in Processing IDE",
-      "highlights": ["Raw Data Graphs", "Math Functions Graphs", "Programmed Data Graphs", "Serial Port Graphs"],
-      "startDate": "2024-07-02",
-      "url": "https://www.github.com/KingHowler/Graph-Plotter"
+      "name": "Meta Data Extraction from Rental Agreements",
+      "summary": "Built an NLP pipeline to extract metadata from legal agreements.",
+      "highlights": ["High accuracy model", "Large-scale document processing"],
+      "url": "https://github.com/adityaadarsh/Meta-Data-Extraction-from-Rental-Agreements---Case-Study"
     },
     {
-      "name": "Oscilloscope Online",
-      "summary": "Website to plot live graphs from a serial device",
-      "highlights": ["p5.js", "Wide variety of customization options", "Web Serial Communication", "Multiple Graphs", "Open Source"],
-      "startDate": "2024-09-01",
-      "endDate": "2024-09-03",
-      "url": "https://kinghowler.github.io/Oscilloscope-Online"
+      "name": "Netflix Movie Recommender System",
+      "summary": "Designed a collaborative-based recommendation system for movies.",
+      "highlights": ["High-performance algorithm", "Large dataset handling"],
+      "url": "https://github.com/adityaadarsh/Netflix-Movie-Recommender-System"
     },
     {
-      "name": "Line Follower Bot",
-      "summary": "Arduino based Line Follower bot using 5 IR sensor Array, contains an optimized code with estimated 25% decrease in time duration compared to hobbyists builds",
-      "highlights": ["State-Lock system", "Function-behaviour"],
-      "startDate": "2023-08-20",
-      "endDate": "2023-08-22",
-      "url": "https://www.github.com/KingHowler/Line-Follower"
+      "name": "Aspect-Based Sentiment Analysis",
+      "summary": "Implemented sentiment analysis on large-scale text data.",
+      "highlights": ["Domain-specific sentiment insights", "Advanced LLM techniques"],
+      "url": "https://github.com/adityaadarsh/aspect-based-sentiment-analysis"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indian Institute of Technology, Hyderabad",
+      "location": "Hyderabad, India",
+      "area": "Data Science",
+      "studyType": "M.Tech",
+      "startDate": "2023-08-01",
+      "endDate": "2026-06-01"
     },
     {
-      "name": "Arduino Toolbox",
-      "summary": "Winforms application to interact with an arduino microcontroller",
-      "highlights": ["Read Available Ports", "Serial Monitor", "Gyroscope Reader", "Robotic Arm Controller"],
-      "startDate": "2024-01-15",
-      "endDate": "2024-01-23",
-      "url": "https://www.github.com/KingHowler/Arduino-Interfaces-using-Winforms"
+      "institution": "University of Hyderabad",
+      "location": "Hyderabad, India",
+      "area": "Artificial Intelligence & Machine Learning",
+      "studyType": "PG Diploma",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01"
+    },
+    {
+      "institution": "Sharda University",
+      "location": "Greater Noida, India",
+      "area": "CSE specialized in IBM Business Analytics",
+      "studyType": "B.Tech",
+      "startDate": "2015-07-01",
+      "endDate": "2019-07-01"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Google ML Engineering Certification",
+      "date": "2023-05-01",
+      "awarder": "Google Cloud",
+      "summary": "Certified ML Engineer specializing in scalable machine learning systems."
+    },
+    {
+      "title": "Machine Learning Training",
+      "date": "2020-05-01",
+      "awarder":"Applied AI Course"
+    },
+    {
+      "title":  "IBM Business Analyst",
+      "date":  "2019-08-01",
+      "awarder": "IBM"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": ["Python", "SQL", "TensorFlow", "PyTorch", "GO", "PySpark"]
+    },
+    {
+      "name": "MLOps",
+      "level": "Expert",
+      "keywords": ["Databricks", "AWS SageMaker", "GCP", "Explainable AI", "CI/CD"]
+    },
+    {
+      "name": "Microservices",
+      "level": "Intermediate",
+      "keywords": ["Restful APIs", "gRPC", "GO"]
+    },
+    {
+      "name": "Data Engineering",
+      "level": "Intermediate",
+      "keywords": ["ETL Pipelines", "Lakehouse"]
+    },
+    {
+      "name": "LLM",
+      "level": "Intermediate",
+      "keywords": ["LLM Finetuning", "RAG", "Prompt Optimization", "Guardrails Designing", "LLMOps"]
     }
   ]
 }

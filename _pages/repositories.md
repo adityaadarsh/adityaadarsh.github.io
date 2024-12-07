@@ -3,7 +3,7 @@ layout: page
 permalink: /github%20stats/
 title: GitHub
 description: Information regarding my github account
-nav: true
+nav: false
 nav_order: 4
 ---
 
