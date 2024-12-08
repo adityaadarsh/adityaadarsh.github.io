@@ -72,7 +72,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.6"
-          bundler-cache: false
+          bundler-cache: true
       - name: Install Missing Gem Executables
         run: |
           gem update --system
@@ -87,7 +87,7 @@ jobs:
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
-          commitChange: false
+          commitChange: true
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
