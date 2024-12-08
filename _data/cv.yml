@@ -92,7 +92,7 @@
         - Python, SQL, TensorFlow, PyTorch, GO, PySpark
     - title: MLOps
       items:
-        - Databricks, AWS SageMaker, GCP, Explainable AI, CI/CD
+        - Databricks, AWS SageMaker, GCP, Docker, Kubernetes, CI/CD
     - title: Microservices
       items:
         - Restful APIs, gRPC, GO
@@ -101,4 +101,4 @@
         - ETL Pipelines, Lakehouse
     - title: LLM
       items:
-        - LLM Finetuning, RAG, Prompt Optimization, Guardrails Designing, LLMOps
+        - LLM Finetuning, RAG, Prompt Optimization, Guardrails Designing, LLMOps, Explainable AI
