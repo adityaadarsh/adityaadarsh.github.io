@@ -2,29 +2,22 @@
  * Themes
  ******************************************************************************/
 
-@use "sass:color";
-
 :root {
   --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
+  --global-code-bg-color: rgba(#ef233c, 0.05);
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #ef233c;
+  --global-hover-color: #ef233c;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-bg-color: #a64656;
+  --global-footer-text-color: #{grey-color};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
+  --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
@@ -62,6 +55,12 @@
   .repo-img-dark {
     display: none;
   }
+  .dark-items {
+    display: none;
+  }
+  .light-items {
+    display: block;
+  }
 
   #back-to-top {
     color: var(--global-back-to-top-text-color);
@@ -75,25 +74,20 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #000000;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #ffffff;
+  --global-text-color-light: #ffffff;
+  --global-theme-color: #00ff00;
+  --global-hover-color: #00ff00;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
+  --global-divider-color: #323232;
+  --global-card-bg-color: #0b0b0b;
+  --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
@@ -116,6 +110,12 @@ html[data-theme="dark"] {
   }
   .repo-img-dark {
     display: block;
+  }
+  .dark-items {
+    display: block;
+  }
+  .light-items {
+    display: none;
   }
 }
 
