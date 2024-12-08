@@ -1,1 +1,0 @@
-# adityaadarsh.github.io
