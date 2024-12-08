@@ -72,27 +72,13 @@
 
 
 
-  <link
-    rel="shortcut icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>"
-  >
+  <link rel="shortcut icon" href="/assets/img/profile_picture.png?1d6147c7837ecb2fc00193594e5bef52">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
 <link rel="canonical" href="http://0.0.0.0:8080/projects/ALS/">
 
 <!-- Dark Mode -->
 <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
-
-  <link
-    defer
-    rel="stylesheet"
-    href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca"
-    media="none"
-    id="highlight_theme_dark"
-  >
-  <script>
-    initTheme();
-  </script>
 
 
 <!-- GeoJSON support via Leaflet -->
@@ -186,25 +172,13 @@
 
 
 
-                <li class="nav-item active">
-
-                  <a class="nav-link" href="/projects/">Projects
-
-                      <span class="sr-only">(current)</span>
-
-                  </a>
-                </li>
-
-
-
-
 
 
 
 
                 <li class="nav-item ">
 
-                  <a class="nav-link" href="/cv/">CV
+                  <a class="nav-link" href="/cv/">Resume
 
                   </a>
                 </li>
@@ -212,15 +186,13 @@
 
 
 
-
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
               </button>
             </li>
+
 
         </ul>
       </div>
@@ -238,7 +210,7 @@
 
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="container-lg mt-5" role="main">
 
 
 
@@ -744,6 +716,13 @@ Click on Arduino to use it or, click on “Configure File Association for ‘.in
 
 
 
+  <!-- Enable Tooltips -->
+  <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+
 
   <!-- Medium Zoom JS -->
   <script
@@ -900,6 +879,149 @@ Click on Arduino to use it or, click on “Configure File Association for ‘.in
   </script>
 
 
+
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?8d7ebe8276cfa922ec1506a5c6b20c13"></script>
+  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
+  <script>
+    let searchTheme = determineComputedTheme();
+    const ninjaKeys = document.querySelector('ninja-keys');
+
+    if (searchTheme === 'dark') {
+      ninjaKeys.classList.add('dark');
+    } else {
+      ninjaKeys.classList.remove('dark');
+    }
+
+    const openSearchModal = () => {
+      // collapse navbarNav if expanded on mobile
+      const $navbarNav = $('#navbarNav');
+      if ($navbarNav.hasClass('show')) {
+        $navbarNav.collapse('hide');
+      }
+      ninjaKeys.open();
+    };
+  </script>
+  <script>
+    // get the ninja-keys element
+    const ninja = document.querySelector('ninja-keys');
+
+    // add the home and posts menu items
+    ninja.data = [{
+        id: "nav-about",
+        title: "About",
+        section: "Navigation",
+        handler: () => {
+          window.location.href = "/";
+        },
+      },{id: "nav-blog",
+              title: "Blog",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "nav-resume",
+              title: "Resume",
+              description: "Please Download The Resume",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/cv/";
+              },
+            },{id: "post-sample-blog",
+
+            title: "Sample Blog",
+
+          description: "Course outline",
+          section: "Posts",
+          handler: () => {
+
+              window.location.href = "/blog/2024/Introduction-to-Digital-Electronics-Course/";
+
+          },
+        },{id: "news-another-website-in-development",
+              title: 'Another website in development',
+              description: "",
+              section: "News",handler: () => {
+                  window.location.href = "/news/Another-website-in-development/";
+                },},{id: "news-the-portfolio-website-for-m-umar-shahbaz-has-been-created",
+              title: 'The portfolio website for M. Umar Shahbaz has been created',
+              description: "",
+              section: "News",},{id: "news-starting-digital-electronics-course-soon",
+              title: 'Starting Digital Electronics course soon',
+              description: "",
+              section: "News",handler: () => {
+                  window.location.href = "/news/Starting-Digital-Electronics-course/";
+                },},{id: "news-oscilloscope-online-is-now-available-for-use",
+              title: 'Oscilloscope Online is now available for use',
+              description: "",
+              section: "News",handler: () => {
+                  window.location.href = "/news/Oscilloscope-Online/";
+                },},{id: "news-major-update-to-portfolio-site",
+              title: 'Major Update to Portfolio site',
+              description: "",
+              section: "News",handler: () => {
+                  window.location.href = "/news/Major-Update-to-Portfolio-site/";
+                },},{id: "projects-arduino-language-support",
+              title: 'Arduino Language Support',
+              description: "Extension for VS Code",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/ALS/";
+                },},{id: "projects-arduino-toolbox",
+              title: 'Arduino Toolbox',
+              description: "Orientation Sensor and Servo Arm Controller",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/ATB/";
+                },},{id: "projects-attendance-system",
+              title: 'Attendance System',
+              description: "An RFID based Attendance System using NodeMCU, integrated with an SQL server.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/Attendace-System/";
+                },},{
+            id: 'socials-email',
+            title: 'Send email',
+            section: 'Socials',
+            handler: () => {
+              window.open("mailto:%61%64%69%74%79%61%61%64%61%72%73%68%39%39@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+            },
+          },{
+            id: 'socials-github',
+            title: 'GitHub',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://github.com/adityaadarsh", "_blank");
+            },
+          },{
+            id: 'socials-linkedin',
+            title: 'LinkedIn',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://www.linkedin.com/in/aditya-adarsh-657320188", "_blank");
+            },
+          },{
+            id: 'socials-x',
+            title: 'X',
+            description: 'Twitter',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://twitter.com/b_fly_learner", "_blank");
+            },
+          },{
+            id: 'socials-blogger',
+            title: 'Blogger',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://adityaadarsh.hashnode.dev/", "_blank");
+            },
+          },{
+            id: 'socials-youtube',
+            title: 'YouTube',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://youtube.com/@butterfly_learner", "_blank");
+            },
+          },];
+  </script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
 
 
   </body>
