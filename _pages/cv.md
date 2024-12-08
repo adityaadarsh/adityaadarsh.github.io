@@ -4,7 +4,7 @@ permalink: /cv/
 title: Resume
 nav: true
 nav_order: 5
-cv_pdf: AdityaAdarshResume2025.pdf
+cv_pdf: AdityaAdarshResume.pdf
 description: <b>Please Download The Resume</b>
 toc:
   sidebar: left
