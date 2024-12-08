@@ -14,7 +14,7 @@ pretty_table: false
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hey, I’m Aditya Adarsh! I’m a Data Scientist with 6+ years of experience in building and deploying machine learning models. I’ve worked on a variety of projects, including fine-tuning large language models (LLMs) and setting up scalable MLOps pipelines to address real-world challenges.
@@ -42,7 +42,7 @@ I’m passionate about building end-to-end ML pipelines and microservices using 
 <!-- **Connect with me** -->
 
 ##### **Connect with me ![Connect with me](https://img.icons8.com/?size=26&id=1H52efUsDX7A&format=png&color=000000)**
-
+<!--
 <a href="mailto:adityaadarsh99@gmail.com" style="display: block; margin-bottom: 1px; align: Right; line-height: 0;">
     <img src="https://img.icons8.com/ios-filled/17/000000/mail.png" alt="Email" /> adityaadarsh99@gmail.com
 </a>
@@ -65,4 +65,4 @@ I’m passionate about building end-to-end ML pipelines and microservices using 
 
 <a href="https://adityaadarsh.hashnode.dev/" style="display: block; margin-bottom: 1px; line-height: 0;">
     <img src="https://img.icons8.com/?size=17&id=10456&format=png&color=000000" alt="Blogs" /> blogs
-</a>
+</a> -->
