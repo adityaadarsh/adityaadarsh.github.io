@@ -5,7 +5,6 @@ on:
     branches:
       - master
       - main
-      - gh-pages
     paths:
       - "assets/**"
       - "**.bib"
@@ -33,7 +32,6 @@ on:
     branches:
       - master
       - main
-      - gh-pages
     paths:
       - "assets/**"
       - "**.bib"
@@ -64,34 +62,21 @@ permissions:
 
 jobs:
   deploy:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-
-      - name: Add bundle platforms
-        run: |
-          bundle lock --add-platform x86_64-linux
-          bundle lock --add-platform aarch64-linux-gnu
-          bundle lock --add-platform arm64-darwin
-
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
-
-      - name: Add platform to Gemfile.lock
-        run: |
-          bundle lock --add-platform x86_64-linux
-          bundle lock --add-platform aarch64-linux-gnu
-
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
-
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -99,20 +84,15 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
-          bundle config set force_ruby_platform true
-          bundle install
           bundle exec jekyll build
-
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
