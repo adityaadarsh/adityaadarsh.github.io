@@ -42,6 +42,7 @@ I’m passionate about building end-to-end ML pipelines and microservices using 
 <!-- **Connect with me** -->
 
 ##### **Connect with me ![Connect with me](https://img.icons8.com/?size=26&id=1H52efUsDX7A&format=png&color=000000)**
+
 <!--
 <a href="mailto:adityaadarsh99@gmail.com" style="display: block; margin-bottom: 1px; align: Right; line-height: 0;">
     <img src="https://img.icons8.com/ios-filled/17/000000/mail.png" alt="Email" /> adityaadarsh99@gmail.com
