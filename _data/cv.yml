@@ -10,6 +10,25 @@
     - name: Summary
       value: Data Scientist with over 6 years of experience specializing in end-to-end ML pipelines, MLOps, large-scale data solutions, and LLM-based AI applications. I Also enjoys creating YouTube content and writing technical blogs.
 
+- title: Education
+  type: time_table
+  contents:
+    - title: M.Tech in Data Science
+      institution: Indian Institute of Technology, Hyderabad
+      year: 2023 - 2026
+      # description:
+      #   - Specialized in advanced ML and data engineering techniques.
+    - title: PG Diploma in Artificial Intelligence & Machine Learning
+      institution: University of Hyderabad
+      year: 2021 - 2022
+      # description:
+      #   - Gained expertise in machine learning, deep learning, and AI tools.
+    - title: B.Tech in CSE (Specialized in IBM Business Analytics)
+      institution: Sharda University
+      year: 2015 - 2019
+      # description:
+      #   - Focused on business analytics, data analysis, and software development.
+
 - title: Experience
   type: time_table
   contents:
@@ -55,55 +74,36 @@
   type: time_table
   contents:
     - title: <a href="https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview">Sales Deal Health Score</a>
-      year: 2024
+      # year: 2024
       description:
         - Deal Health - Built a scalable end-to-end ML pipeline for Deal Health monitoring, delivering actionable recommendations with 88% accuracy.
     - title: <a href="https://github.com/adityaadarsh/local-chatbot-cpu">Local Chatbot for Private Data</a>
-      year: 2023
+      # year: 2023
       description:
         - Developed a question-answering chatbot optimized for CPU.
         - Implemented secure and scalable solutions using local LLMs.
     - title: <a href="https://github.com/adityaadarsh/Meta-Data-Extraction-from-Rental-Agreements---Case-Study">Meta Data Extraction from Rental Agreements</a>
-      year: 2022
+      # year: 2022
       description:
         - Built an NLP pipeline to extract metadata from legal agreements.
         - Achieved high accuracy on large-scale document processing.
-    - title: <a href="https://github.com/adityaadarsh/Netflix-Movie-Recommender-System">Netflix Movie Recommender System</a>
-      year: 2021
-      description:
-        - Designed a collaborative-based recommendation system for movies.
-        - Handled large datasets efficiently.
     - title: <a href="https://github.com/adityaadarsh/aspect-based-sentiment-analysis">Aspect-Based Sentiment Analysis</a>
-      year: 2020
+      # year: 2020
       description:
         - Conducted sentiment analysis on large-scale text data.
         - Delivered domain-specific sentiment insights using advanced LLMs.
+    - title: <a href="https://github.com/adityaadarsh/Netflix-Movie-Recommender-System">Netflix Movie Recommender System</a>
+      # year: 2021
+      description:
+        - Designed a collaborative-based recommendation system for movies.
+        - Handled large datasets efficiently.
     - title: Other Projects and Case Studies
-      year: 2020
+      # year: 2020
       description:
         - Summarize product reviews on Large Scale Text Data
         - Delivered domain-specific sentiment insights using advanced LLMs.
         - Amazon Fashion Apparel Recommendation System (Content based)
         - Quora Questions pair similarity
-
-- title: Education
-  type: time_table
-  contents:
-    - title: M.Tech in Data Science
-      institution: Indian Institute of Technology, Hyderabad
-      year: 2023 - 2026
-      description:
-        - Specialized in advanced ML and data engineering techniques.
-    - title: PG Diploma in Artificial Intelligence & Machine Learning
-      institution: University of Hyderabad
-      year: 2021 - 2022
-      description:
-        - Gained expertise in machine learning, deep learning, and AI tools.
-    - title: B.Tech in CSE (Specialized in IBM Business Analytics)
-      institution: Sharda University
-      year: 2015 - 2019
-      description:
-        - Focused on business analytics, data analysis, and software development.
 
 - title: Certifications
   type: time_table
