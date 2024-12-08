@@ -15,41 +15,41 @@
   contents:
     - title: Senior Data Scientist
       institution: Outreach.io
-      year: Nov 2023 - Present
+      year: "Nov 2023 - Present"
       description:
-        - A[Deal Health](https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview):Developed and maintating a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations.
-        - A[Central AI for Sales](https://www.outreach.io/platform/sales-ai): Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for big enterprises.
+        - "[Deal Health](https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview): Developed and maintaining a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations."
+        - "[Central AI for Sales](https://www.outreach.io/platform/sales-ai): Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for big enterprises."
 
     - title: Lead Data Scientist Consultant
       institution: Donor Three Sixty, Inc
-      year: Sep 2023 - Present
+      year: "Sep 2023 - Present"
       description:
-        - Developed and deployed a Donor Propensity Model to serve live customers.
-        - Created a Donor Data Descriptive Dashboard for end-users to provide actionable insights.
+        - "Developed and deployed a Donor Propensity Model to serve live customers."
+        - "Created a Donor Data Descriptive Dashboard for end-users to provide actionable insights."
 
     - title: Data Scientist
       institution: Reputation.com
-      year: Sep 2021 - Aug 2023
+      year: "Sep 2021 - Aug 2023"
       description:
-        - Location Alias: Implemented large-scale data deduplication using a probabilistic model, reducing data volume by 40% and improving the accuracy and load of downstream applications by 25%.
-        - Feedback Recommendation: Implemented semantic encoding and NLP techniques to enhance feedback generation and recommendations.
-        - A[Reputation Scoring](https://repscore.com/reputation-score/) & Anomaly Detection: Developed the RepScore Thermometer, a metric indicating business/customer reputation and conducted time series analysis for anomaly detection and .
+        - "Location Alias: Implemented large-scale data deduplication using a probabilistic model, reducing data volume by 40% and improving the accuracy and load of downstream applications by 25%."
+        - "Feedback Recommendation: Implemented semantic encoding and NLP techniques to enhance feedback generation and recommendations."
+        - "[Reputation Scoring](https://repscore.com/reputation-score/) & Anomaly Detection: Developed the RepScore Thermometer, a metric indicating business/customer reputation and conducted time series analysis for anomaly detection."
 
     - title: AI Software Engineer
       institution: AIEnsured
-      year: Mar 2020 - Sep 2021
+      year: "Mar 2020 - Sep 2021"
       description:
-        - Built core [AI product](https://aiensured.com/product/) at AIEnsured focusing on machine learning solutions.
-        - Developed an End-to-End pipeline for explaining image classification models using Explainable AI.
-        - Worked on large-scale data projects including Location Alias and Feedback Recommendation systems.
+        - "Built core [AI product](https://aiensured.com/product/) at AIEnsured focusing on machine learning solutions."
+        - "Developed an End-to-End pipeline for explaining image classification models using Explainable AI."
+        - "Worked on large-scale data projects including Location Alias and Feedback Recommendation systems."
 
     - title: Machine Learning Engineer
       institution: Freelance
-      year: Jan 2019 - Feb 2020
+      year: "Jan 2019 - Feb 2020"
       description:
-        - Completed end-to-end ML projects including Time Series Forecasting.
-        - Developed classical image processing algorithms from scratch.
-        - Worked on independent machine learning and AI consulting projects.
+        - "Completed end-to-end ML projects including Time Series Forecasting."
+        - "Developed classical image processing algorithms from scratch."
+        - "Worked on independent machine learning and AI consulting projects."
 
 - title: Projects
   type: time_table
