@@ -5,7 +5,7 @@ on:
     branches:
       - master
       - main
-      - gh-pages
+      - aditya/fix
     paths:
       - "assets/**"
       - "**.bib"
