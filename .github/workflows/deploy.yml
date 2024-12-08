@@ -73,6 +73,12 @@ jobs:
         with:
           ruby-version: "3.3.6"
           bundler-cache: false
+      - name: Install Missing Gem Executables
+        run: |
+          gem update --system
+          gem install bundler
+          bundle config set path 'vendor/bundle'
+          bundle install --jobs 4 --retry 3
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
