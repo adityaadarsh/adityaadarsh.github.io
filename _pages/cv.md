@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: Resume
 nav: true
 nav_order: 5
-cv_pdf: Aditya_Adarsh_Resume_2024.pdf
-description: Please Download The Resume
+cv_pdf: AdityaAdarshResume.pdf
+description: <b>Please Download The Resume</b>
 toc:
   sidebar: left
 ---

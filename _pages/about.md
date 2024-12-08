@@ -4,7 +4,6 @@ title: About
 permalink: /
 subtitle: <a href='https://www.linkedin.com/in/aditya-adarsh-657320188/'>Full Stack Data Scientist/AI Engineer</a>
 
-
 profile:
   align: right
   image: profile_picture.png
@@ -18,26 +17,28 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-
-
 Hey, I’m Aditya Adarsh! I’m a Data Scientist with 6+ years of experience in building and deploying machine learning models. I’ve worked on a variety of projects, including fine-tuning large language models (LLMs) and setting up scalable MLOps pipelines to address real-world challenges.
 
 I’m passionate about building end-to-end ML pipelines and microservices using tools like Python, Go, PyTorch, Databricks, and PySpark, gRPC. Whether it's working with messy data or optimizing complex systems, I love tackling challenges.
 
 **Recent Work:**
-- **[Central AI for Sales](https://www.outreach.io/platform/sales-ai)**: Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for a big enterprises.
-- **[Deal Health]((https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview))**: Developed a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations.
+
+- **[Central AI for Sales](https://www.outreach.io/platform/sales-ai)**: Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for big enterprises.
+- **[Deal Health](<(https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview)>)**: Developed a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations.
 
 **What I’m Working On:**
+
 - Building ML pipelines and microservices with Python, Go, TensorFlow, PyTorch, Databricks, MLFlow, and PySpark.
 - Diving into CI/CD for ML, distributed systems, and scalable APIs.
 - Creating [YouTube](https://www.youtube.com/@butterfly_learner) content, writing technical [blogs](https://adityaadarsh.hashnode.dev/), and solving interesting challenges along the way.
 
 **New Tech I'm Learning**
+
 - Web Development, Web3, Blockchain
 - Advance DevOps
 
 ---
+
 <!-- **Connect with me** -->
 
 ##### **Connect with me ![Connect with me](https://img.icons8.com/?size=26&id=1H52efUsDX7A&format=png&color=000000)**

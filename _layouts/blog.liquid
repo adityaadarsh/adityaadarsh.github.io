@@ -5,7 +5,7 @@
     {% if page.redirect %}
       {% if page.redirect contains '://' %}
         {% assign redirect = page.redirect %}
-    {% endif %}
+      {% endif %}
       <meta http-equiv="refresh" content="0; url={{ redirect }}">
     {% endif %}
   </head>
