@@ -1,30 +1,55 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Aditya Adarsh
     - name: Title
       value: Data Scientist and AI Specialist
     - name: LinkedIn
       value: <a href="https://www.linkedin.com/in/aditya-adarsh-657320188/">Aditya Adarsh</a>
     - name: Summary
-      value: Data Scientist with over 6 years of experience specializing in end-to-end ML pipelines, MLOps, large-scale data solutions, and LLM-based AI applications. Also enjoys creating YouTube content and writing technical blogs.
+      value: Data Scientist with over 6 years of experience specializing in end-to-end ML pipelines, MLOps, large-scale data solutions, and LLM-based AI applications. I Also enjoys creating YouTube content and writing technical blogs.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Data Scientist
+      institution: Outreach.io
+      year: Nov 2023 - Present
       description:
-        - Conducted research in relativity.
-        - Delivered lectures on theoretical physics.
-    - title: Visiting Professor
-      institution: California Institute of Technology
-      year: 1933
+        - A[Deal Health](https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview):Developed and maintating a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations.
+        - A[Central AI for Sales](https://www.outreach.io/platform/sales-ai): Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for big enterprises.
+
+    - title: Lead Data Scientist Consultant
+      institution: Donor Three Sixty, Inc
+      year: Sep 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Developed and deployed a Donor Propensity Model to serve live customers.
+        - Created a Donor Data Descriptive Dashboard for end-users to provide actionable insights.
+
+    - title: Data Scientist
+      institution: Reputation.com
+      year: Sep 2021 - Aug 2023
+      description:
+        - Location Alias: Implemented large-scale data deduplication using a probabilistic model, reducing data volume by 40% and improving the accuracy and load of downstream applications by 25%.
+        - Feedback Recommendation: Implemented semantic encoding and NLP techniques to enhance feedback generation and recommendations.
+        - A[Reputation Scoring](https://repscore.com/reputation-score/) & Anomaly Detection: Developed the RepScore Thermometer, a metric indicating business/customer reputation and conducted time series analysis for anomaly detection and .
+
+    - title: AI Software Engineer
+      institution: AIEnsured
+      year: Mar 2020 - Sep 2021
+      description:
+        - Built core [AI product](https://aiensured.com/product/) at AIEnsured focusing on machine learning solutions.
+        - Developed an End-to-End pipeline for explaining image classification models using Explainable AI.
+        - Worked on large-scale data projects including Location Alias and Feedback Recommendation systems.
+
+    - title: Machine Learning Engineer
+      institution: Freelance
+      year: Jan 2019 - Feb 2020
+      description:
+        - Completed end-to-end ML projects including Time Series Forecasting.
+        - Developed classical image processing algorithms from scratch.
+        - Worked on independent machine learning and AI consulting projects.
 
 - title: Projects
   type: time_table

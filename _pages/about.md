@@ -25,7 +25,7 @@ Hey, I’m Aditya Adarsh! I’m a Data Scientist with 6+ years of experience in 
 I’m passionate about building end-to-end ML pipelines and microservices using tools like Python, Go, PyTorch, Databricks, and PySpark, gRPC. Whether it's working with messy data or optimizing complex systems, I love tackling challenges.
 
 **Recent Work:**
-- **[Central AI for Sales](https://www.outreach.io/platform/sales-ai)**: Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for a big enterprises.
+- **[Central AI for Sales](https://www.outreach.io/platform/sales-ai)**: Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for big enterprises.
 - **[Deal Health]((https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview))**: Developed a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations.
 
 **What I’m Working On:**
