@@ -51,9 +51,13 @@
         - Developed classical image processing algorithms from scratch.
         - Worked on independent machine learning and AI consulting projects.
 
-- title: Projects
+- title: Projects and Case Studies
   type: time_table
   contents:
+    - title: <a href="https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview">Sales Deal Health Score</a>
+      year: 2024
+      description:
+        - Deal Health - Built a scalable end-to-end ML pipeline for Deal Health monitoring, delivering actionable recommendations with 88% accuracy.
     - title: <a href="https://github.com/adityaadarsh/local-chatbot-cpu">Local Chatbot for Private Data</a>
       year: 2023
       description:
@@ -74,6 +78,13 @@
       description:
         - Conducted sentiment analysis on large-scale text data.
         - Delivered domain-specific sentiment insights using advanced LLMs.
+    - title: Other Projects and Case Studies
+      year: 2020
+      description:
+        - Summarize product reviews on Large Scale Text Data
+        - Delivered domain-specific sentiment insights using advanced LLMs.
+        - Amazon Fashion Apparel Recommendation System (Content based)
+        - Quora Questions pair similarity
 
 - title: Education
   type: time_table
