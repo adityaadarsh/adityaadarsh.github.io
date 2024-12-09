@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 Hey, I’m Aditya Adarsh! I’m a Data Scientist with 6+ years of experience in building and deploying machine learning models. I’ve worked on a variety of projects, including fine-tuning large language models (LLMs) and setting up scalable MLOps pipelines to address real-world challenges.
 
-I’m passionate about building end-to-end ML pipelines and microservices using tools like Python, Go, PyTorch, Databricks, and PySpark, gRPC. Whether it's working with messy data or optimizing complex systems, I love tackling challenges.
+I’m building end-to-end ML pipelines and microservices using tools like Python, Go, PyTorch, Databricks, and PySpark, gRPC. Whether it's working with messy data or optimizing complex systems, I love tackling challenges.
 
 **Recent Work:**
 
