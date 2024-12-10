@@ -24,7 +24,7 @@ I’m building end-to-end ML pipelines and microservices using tools like Python
 **Recent Work:**
 
 - **[Central AI for Sales](https://www.outreach.io/platform/sales-ai)**: Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for big enterprises.
-- **[Deal Health](<(https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview)>)**: Developed a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations.
+- **[Deal Health](https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview)**: Developed a scalable end-to-end ML pipeline to monitor and analyze the health of business deals, providing actionable recommendations.
 
 **What I’m Working On:**
 
