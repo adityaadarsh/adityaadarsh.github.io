@@ -3,7 +3,7 @@
     "name": "Aditya Adarsh",
     "label": "Data Scientist and AI Specialist",
     "url": "https://www.linkedin.com/in/aditya-adarsh-657320188/",
-    "summary": "Data Scientist with over 6 years of experience specializing in end-to-end ML pipelines, MLOps, large-scale data solutions, and LLM-based AI applications. \n I Also like to create content on youtube and writing blogs.",
+    "summary": "Data Scientist with over 6 years of experience specializing in end-to-end ML pipelines, MLOps, large-scale data solutions, and LLM-based AI applications. I also enjoy creating YouTube content and writing technical blogs.",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -24,39 +24,89 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Outreach.io",
+      "position": "Senior Data Scientist",
+      "startDate": "2023-11-01",
+      "endDate": null,
+      "description": [
+        "Deal Health - Built a scalable end-to-end ML pipeline for Deal Health monitoring, delivering actionable recommendations with 88% accuracy.",
+        "Central AI for Sales - Building an AI-powered system using LLMs, RAG, and Spark to improve sales processes for big enterprises."
+      ]
+    },
+    {
+      "name": "Donor Three Sixty, Inc",
+      "position": "Lead Data Scientist Consultant",
+      "startDate": "2023-09-01",
+      "endDate": null,
+      "description": [
+        "Developed and deployed a Donor Propensity Model to serve live customers.",
+        "Created a Donor Data Descriptive Dashboard for end-users to provide actionable insights."
+      ]
+    },
+    {
+      "name": "Reputation.com",
+      "position": "Data Scientist",
+      "startDate": "2021-09-01",
+      "endDate": "2023-08-01",
+      "description": [
+        "Location Alias - Implemented large-scale data deduplication using a probabilistic model, reducing data volume by 40% and improving the accuracy and load of downstream applications by 25%.",
+        "Feedback Recommendation - Implemented semantic encoding and NLP techniques to enhance feedback generation and recommendations.",
+        "Reputation Scoring & Anomaly Detection - Developed the RepScore Thermometer, a metric indicating business/customer reputation and conducted time series analysis for anomaly detection."
+      ]
+    },
+    {
+      "name": "AIEnsured.com",
+      "position": "AI Software Engineer",
+      "startDate": "2020-03-01",
+      "endDate": "2021-09-01",
+      "description": [
+        "Built core AI product at AIEnsured focusing on machine learning solutions.",
+        "Developed an End-to-End pipeline for explaining image classification models using Explainable AI.",
+        "Worked on large-scale data projects including Location Alias and Feedback Recommendation systems."
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Machine Learning Engineer",
+      "startDate": "2019-01-01",
+      "endDate": "2020-02-01",
+      "description": [
+        "Completed end-to-end ML projects including Time Series Forecasting.",
+        "Developed classical image processing algorithms from scratch.",
+        "Worked on independent machine learning and AI consulting projects."
+      ]
     }
   ],
   "projects": [
     {
+      "name": "Sales Deal Health Score",
+      "summary": "Built a scalable end-to-end ML pipeline for Deal Health monitoring",
+      "highlights": ["88% accuracy", "Actionable recommendations"],
+      "url": "https://support.outreach.io/hc/en-us/articles/6631854850203-Deal-Health-Overview"
+    },
+    {
       "name": "Local Chatbot for Private Data",
-      "summary": "Developed a question-answering chatbot optimized for CPU.",
+      "summary": "Developed a question-answering chatbot optimized for CPU",
       "highlights": ["Local LLM-based solution", "Secure and scalable"],
       "url": "https://github.com/adityaadarsh/local-chatbot-cpu"
     },
     {
       "name": "Meta Data Extraction from Rental Agreements",
-      "summary": "Built an NLP pipeline to extract metadata from legal agreements.",
-      "highlights": ["High accuracy model", "Large-scale document processing"],
+      "summary": "Built an NLP pipeline to extract metadata from legal agreements",
+      "highlights": ["High accuracy", "Large-scale document processing"],
       "url": "https://github.com/adityaadarsh/Meta-Data-Extraction-from-Rental-Agreements---Case-Study"
     },
     {
-      "name": "Netflix Movie Recommender System",
-      "summary": "Designed a collaborative-based recommendation system for movies.",
-      "highlights": ["High-performance algorithm", "Large dataset handling"],
-      "url": "https://github.com/adityaadarsh/Netflix-Movie-Recommender-System"
+      "name": "Aspect-Based Sentiment Analysis",
+      "summary": "Conducted sentiment analysis on large-scale text data",
+      "highlights": ["Domain-specific insights", "Advanced LLM techniques"],
+      "url": "https://github.com/adityaadarsh/aspect-based-sentiment-analysis"
     },
     {
-      "name": "Aspect-Based Sentiment Analysis",
-      "summary": "Implemented sentiment analysis on large-scale text data.",
-      "highlights": ["Domain-specific sentiment insights", "Advanced LLM techniques"],
-      "url": "https://github.com/adityaadarsh/aspect-based-sentiment-analysis"
+      "name": "Netflix Movie Recommender System",
+      "summary": "Designed a collaborative-based recommendation system for movies",
+      "highlights": ["Efficient large dataset handling"],
+      "url": "https://github.com/adityaadarsh/Netflix-Movie-Recommender-System"
     }
   ],
   "education": [
@@ -112,7 +162,7 @@
     {
       "name": "MLOps",
       "level": "Expert",
-      "keywords": ["Databricks", "AWS SageMaker", "GCP", "Explainable AI", "CI/CD"]
+      "keywords": ["Databricks", "AWS SageMaker", "GCP", "Docker", "Kubernetes", "Explainable AI", "CI/CD"]
     },
     {
       "name": "Microservices",
@@ -127,7 +177,7 @@
     {
       "name": "LLM",
       "level": "Intermediate",
-      "keywords": ["LLM Finetuning", "RAG", "Prompt Optimization", "Guardrails Designing", "LLMOps"]
+      "keywords": ["LLM Finetuning", "RAG", "Prompt Optimization", "Guardrails Designing", "LLMOps", "Explainable AI"]
     }
   ]
 }
